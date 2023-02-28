@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://ssozr.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
+# git push -f git@github.com:<ssozr>/<ssozr>.github.io.git main
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+# if you are deploying to https://<ssozr>.github.io/<vueweek77>
+git push -f git@github.com:<ssozr>/<vueweek77>.git main:gh-pages
 
 cd -
